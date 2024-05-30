@@ -19,7 +19,7 @@
 }
 
 header {
-    height: 80px;
+    height: 130px;
     width: 100%;
     background-color: var(--banner-color);
 
@@ -48,7 +48,8 @@ main {
     background-color: var(--banner-color);
     border-radius: 15px;
     padding: 30px;
-    max-width: 550px;
+    max-width: 100%;
+    min-width: 550px;
 
     color: var(--text-color);
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
@@ -58,6 +59,12 @@ main {
     justify-content: center;
 
     gap: 40px;
+
+    transition: all .3s;
+}
+
+.manga-box:hover {
+    transform: scale(1.01);
 }
 
 .manga-img {
@@ -113,10 +120,11 @@ main {
     text-align: center;
     color: var(--text-color);
     background-color: var(--primary-color);
-    padding: 4px 12px;
+    padding: 8px 0;
     border-radius: 10px;
 
     transition: .3s;
+    width: 220px;
 }
 
 .link-button:hover {
@@ -131,8 +139,10 @@ main {
     text-align: center;
     color: var(--text-color);
     background-color: var(--secondary-color);
-    padding: 4px 12px;
+    padding: 20px 0;
     border-radius: 12px;
+
+    width: 220px;
 }
 
 footer {
