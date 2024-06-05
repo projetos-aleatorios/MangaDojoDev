@@ -165,7 +165,7 @@ main {
     border-radius: 10px;
 
     transition: all .3s;
-    animation: neonGlow 2s infinite alternate;
+    animation: Glow 2s infinite alternate;
 }
 
 .last-chapter:hover {
@@ -276,13 +276,13 @@ footer svg:hover {
 
 /* ANIMATIONS */
 
-@keyframes neonGlow {
-    0% {
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.350),
-                   0 0 20px  rgba(255, 255, 255, 0.350)
+@keyframes Glow {
+    from {
+        box-shadow: 0,
     }
-    100% {
-      box-shadow: 0 0 5px rgba(255, 255, 255, 0.350),
-                   0 0 10px rgba(255, 255, 255, 0.350)
+
+    to {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.350),
+                    0 0 20px rgba(255, 255, 255, 0.350)
     }
   }
