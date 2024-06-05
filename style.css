@@ -12,7 +12,7 @@
     --background-color: #291919;
     --banner-color: #171717;
     --primary-color: #5c1b0b;
-    --primary-hover: #8d4431;
+    --primary-hover: #b14429;
     --secondary-color: #31363F;
     --contrast-color:  #e7b73d;
     --contrast-hover: #ffe8af;
@@ -71,7 +71,7 @@ nav {
 nav a button {
     all: unset;
 
-    color: var(--secondary-text-color);
+    color: var(--text-color);
     font-weight: 500;
     transition: all .5s;
 
@@ -79,7 +79,7 @@ nav a button {
 }
 
 nav a button:hover {
-    color: var(--text-color);
+    color: var(--contrast-color);
 }
 
 nav a button:after {
@@ -89,13 +89,13 @@ nav a button:after {
     left: 0;
     width: 1%;
     height: 2px;
-    background-color: var(--text-color);
+    background-color: var(--contrast-color);
     opacity: 0;
     transition: all .5s;
 }
 
 nav a button:hover:after {
-    background-color: var(--text-color);
+    background-color: var(--contrast-color);
     opacity: 1;
     width: 100%;
 }
@@ -165,6 +165,7 @@ main {
     border-radius: 10px;
 
     transition: all .3s;
+    animation: neonGlow 2s infinite alternate;
 }
 
 .last-chapter:hover {
@@ -221,11 +222,38 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
-    gap: 25px;
+    justify-content: space-between;
 
-    padding-right: 90px;
-    
+    padding: 0px 90px;
+}
+
+.credits-link, .credits-link a {
+    font-size: 16px;
+    color: var(--text-color);
+    transition: all .3s;
+    position: relative;
+}
+
+.credits-link a:hover {
+    color: var(--contrast-color);
+}
+
+.credits-link a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1%;
+    height: 2px;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all .3s;
+}
+
+.credits-link a:hover:after {
+    background-color: var(--contrast-color);
+    opacity: 1;
+    width: 100%; 
 }
 
 footer button {
@@ -236,6 +264,7 @@ footer svg {
     color: var(--contrast-color);
     fill: var(--contrast-color);
     transition: all .5s;
+    margin-left: 20px;
 }
 
 footer svg:hover {
@@ -244,3 +273,16 @@ footer svg:hover {
 
     transform: translateY(-5px);
 }
+
+/* ANIMATIONS */
+
+@keyframes neonGlow {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.350),
+                   0 0 20px  rgba(255, 255, 255, 0.350)
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.350),
+                   0 0 10px rgba(255, 255, 255, 0.350)
+    }
+  }
