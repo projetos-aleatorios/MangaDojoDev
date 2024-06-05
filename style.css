@@ -12,26 +12,95 @@
     --background-color: #291919;
     --banner-color: #171717;
     --primary-color: #5c1b0b;
-    --primary-hover: #662e20;
+    --primary-hover: #8d4431;
     --secondary-color: #31363F;
     --contrast-color:  #e7b73d;
-    --contrast-hover: #ffd978;
+    --contrast-hover: #ffe8af;
 }
+
+/* SCROLLBAR */
+
+html {
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--banner-color);
+    border-radius: 20px;
+}
+  
+/* HEADER AREA */
 
 header {
     height: 130px;
     width: 100%;
     background-color: var(--banner-color);
 
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
 
     border-bottom: solid 4px #1b1b1b80;
 }
 
 .banner-img {
     width: 80px;
+    transition: all .3s;
 }
+
+.banner-img:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+nav a button {
+    all: unset;
+
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    transition: all .5s;
+
+    position: relative;
+}
+
+nav a button:hover {
+    color: var(--text-color);
+}
+
+nav a button:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 1%;
+    height: 2px;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all .5s;
+}
+
+nav a button:hover:after {
+    background-color: var(--text-color);
+    opacity: 1;
+    width: 100%;
+}
+
+/* MAIN AREA */
 
 main {
     background-color: var(--background-color);
@@ -61,10 +130,6 @@ main {
     gap: 40px;
 
     transition: all .3s;
-}
-
-.manga-box:hover {
-    transform: scale(1.01);
 }
 
 .manga-img {
@@ -104,7 +169,7 @@ main {
 
 .last-chapter:hover {
     background-color: var(--contrast-hover);
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 .manga-description {
@@ -129,7 +194,7 @@ main {
 
 .link-button:hover {
     background-color: var(--primary-hover);
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 
 .manga-footer {
@@ -145,8 +210,10 @@ main {
     width: 220px;
 }
 
+/* FOOTER AREA */
+
 footer {
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-color: var(--banner-color);
     border-top: solid 4px #1b1b1b80;
@@ -155,7 +222,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    gap: 15px;
+    gap: 25px;
 
     padding-right: 90px;
     
