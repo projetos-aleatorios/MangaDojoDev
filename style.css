@@ -10,9 +10,9 @@
     --text-color: #EEEEEE;
     --secondary-text-color: #bcbcbc;
     --background-color: #291919;
-    --banner-color: #171717;
+    --banner-color: #131313;
     --primary-color: #5c1b0b;
-    --primary-hover: #b14429;
+    --primary-hover: #a72606;
     --secondary-color: #31363F;
     --contrast-color:  #e7b73d;
     --contrast-hover: #ffe8af;
@@ -48,24 +48,39 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 80px;
 
     border-bottom: solid 4px #1b1b1b80;
 }
 
-.banner-img {
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.banner-logo {
     width: 80px;
     transition: all .3s;
 }
 
-.banner-img:hover {
+.banner-logo:hover {
     transform: scale(1.1);
+}
+
+.banner-title {
+    width: 320px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
 }
 
 nav a button {
@@ -103,8 +118,9 @@ nav a button:hover:after {
 /* MAIN AREA */
 
 main {
-    background-color: var(--background-color);
-
+    background: rgb(41,25,25);
+    background: linear-gradient(49deg, rgba(41,25,25,1) 10%, rgba(92,27,11,1) 50%, rgba(41,25,25,1) 90%);
+    
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -114,6 +130,7 @@ main {
 }
 
 .manga-box {
+
     background-color: var(--banner-color);
     border-radius: 15px;
     padding: 30px;
@@ -224,7 +241,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 
-    padding: 0px 90px;
+    padding: 0px 80px;
 }
 
 .credits-link, .credits-link a {
@@ -264,14 +281,18 @@ footer svg {
     color: var(--contrast-color);
     fill: var(--contrast-color);
     transition: all .5s;
-    margin-left: 20px;
+    margin-left: 14px;
+
+    background-color: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 6px;
+    padding: 6px;
 }
 
 footer svg:hover {
-    color: var(--contrast-hover);
-    fill: var(--contrast-hover);
+    background-color: rgba(49, 54, 63, 0.275);
 
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 }
 
 /* ANIMATIONS */
