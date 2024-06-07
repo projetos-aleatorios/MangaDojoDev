@@ -43,6 +43,7 @@ var MANGAS = [
   { "name": "Usogui", "author": "Toshio Sako", "post-type": "Capítulo", "img": "./assets/mangas/CoverUsogui.png",
     "all-links": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
+    "manga-link": "https://mangadex.org/chapter/60b9504d-621b-4932-a8b6-f0c97abbc148",
     "last-content": "4",
     "last-title": "Assuntos Secretos",
     "next-date": "??/??/????" 
@@ -53,6 +54,7 @@ var MANGAS = [
   { "name": "Kono Sekai wa Fukanzen Sugiru", "author": "Masamichi Sato", "post-type": "Capítulo", "img": "./assets/mangas/CoverKonoSekai.png",
     "all-links": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
+    "manga-link": "https://mangadex.org/chapter/64795205-5b74-4d5b-a2df-a792818812ab/61",
     "last-content": "2",
     "last-title": "Makoto Haga",
     "next-date": "??/??/????" 
