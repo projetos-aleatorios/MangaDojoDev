@@ -184,12 +184,12 @@ main {
     all: unset;
 
     margin-top: 12px;
-    width: 60px;
+    width: 70px;
 
     text-align: center;
     color: var(--banner-color);
     background-color: var(--contrast-color);
-    padding: 2px;
+    padding: 5px;
     border-radius: 10px;
 
     transition: all .3s;
@@ -198,7 +198,6 @@ main {
 
 .last-chapter:hover {
     background-color: var(--contrast-hover);
-    /* transform: scale(1.05); */
 }
 
 .manga-description {
@@ -207,8 +206,8 @@ main {
 }
 
 .last-title {
-    margin-top: -5px;
     font-size: 16px;
+    margin-top: -15px;
 }
 
 .link-button {
