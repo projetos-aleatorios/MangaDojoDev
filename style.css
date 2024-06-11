@@ -237,7 +237,7 @@ main {
     text-align: center;
     color: var(--text-color);
     background-color: var(--secondary-color);
-    padding: 20px 0;
+    padding: 20px 5px;
     border-radius: 12px;
 
     width: 220px;
@@ -246,7 +246,7 @@ main {
 }
 
 .manga-footer:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* FOOTER AREA */
