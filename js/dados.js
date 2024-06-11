@@ -1,73 +1,105 @@
-var TWITTER = ""
-var DISCORD = ""
+var TWITTER = "https://x.com/mangadojoofc"
+var DISCORD = "https://discord.com/invite/q7NsCamgQQ"
 
 var MANGAS = [
   
-  // LEMBRE-SE sempre de escrever os conteúdos entre "aspas";
-  // CUIDADO para não apagar conteúdos por acidente, vírgulas, pontuação, etc.
-
+  // LEMBRE-SE | sempre de escrever os conteúdos entre "aspas";
+  // CUIDADO   | para não apagar conteúdos por acidente, vírgulas, pontuação, etc.
+  // AVISO     | o mangá só aparecerá no site caso contenha algum link do mangadex ou do cubari no campo "mangaLink"
 
 
   // ONE PIECE
 
-  { "name": "One Piece", "author": "Eichiiro Oda", "post-type": "Capítulo", "img": "./assets/mangas/CoverOnePiece.png",
-    "all-links": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
+  { "name": "One Piece", "author": "Eichiiro Oda", "img": "./assets/mangas/CoverOnePiece.png",
 
-    "last-content": "1116",
-    "last-title": "Conflito",
-    "next-date": "??/??/????"
+    // Link de todos os capítulos
+    "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
+
+    // Link, número e título do último capítulo
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1116/1",
+    "lastContent": "1116",
+    "lastTitle": "Conflito",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
+
+
 
   // JUJUTSU KAISEN
 
-  { "name": "Jujutsu Kaisen", "author": "Gege Akutami", "post-type": "Capítulo", "img": "./assets/mangas/CoverJujutsu.png",
-    "all-links": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/",
+  { "name": "Jujutsu Kaisen", "author": "Gege Akutami", "img": "./assets/mangas/CoverJujutsu.png",
 
-    "last-content": "262",
-    "last-title": "A Batalha na Terra Assombrada de Shinjuku",
-    "next-date": "??/??/????" 
+    // Link de todos os capítulos
+    "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/",
+
+    // Link, número e título do último capítulo
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/262/1",
+    "lastContent": "262",
+    "lastTitle": "A Batalha na Terra Assombrada de Shinjuku",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
+
+
 
   // SAKAMOTO DAYS
 
-  { "name": "Sakamoto Days", "author": "Yuto Suzuki", "post-type": "Capítulo", "img": "./assets/mangas/CoverSakamoto.png",
-    "all-links": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg",
+  { "name": "Sakamoto Days", "author": "Yuto Suzuki", "img": "./assets/mangas/CoverSakamoto.png",
+    
+    // Link de todos os capítulos
+    "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg",
 
-    "last-content": "168",
-    "last-title": "Museu Fechado",
-    "next-date": "??/??/????" 
+    // Link, número e título do último capítulo
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/168/1",
+    "lastContent": "168",
+    "lastTitle": "Museu Fechado",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
+
+
 
   // USOGUI
 
-  { "name": "Usogui", "author": "Toshio Sako", "post-type": "Capítulo", "img": "./assets/mangas/CoverUsogui.png",
-    "all-links": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
+  { "name": "Usogui", "author": "Toshio Sako", "img": "./assets/mangas/CoverUsogui.png",
+  
+    // Link de todos os capítulos 
+    "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
-    "manga-link": "https://mangadex.org/chapter/60b9504d-621b-4932-a8b6-f0c97abbc148",
-    "last-content": "4",
-    "last-title": "Assuntos Secretos",
-    "next-date": "??/??/????" 
+    // Link, número e título do último capítulo
+    "mangaLink": "https://mangadex.org/chapter/60b9504d-621b-4932-a8b6-f0c97abbc148",
+    "lastContent": "4",
+    "lastTitle": "Assuntos Secretos",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
+
+
 
   // KONO SEKAI WA FUKANZEN SUGIRU
 
-  { "name": "Kono Sekai wa Fukanzen Sugiru", "author": "Masamichi Sato", "post-type": "Capítulo", "img": "./assets/mangas/CoverKonoSekai.png",
-    "all-links": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
+  { "name": "Kono Sekai wa Fukanzen Sugiru", "author": "Masamichi Sato", "img": "./assets/mangas/CoverKonoSekai.png",
 
-    "manga-link": "https://mangadex.org/chapter/64795205-5b74-4d5b-a2df-a792818812ab/61",
-    "last-content": "2",
-    "last-title": "Makoto Haga",
-    "next-date": "??/??/????" 
+    // Link de todos os capítulos  
+    "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
+
+    // Link, número e título do último capítulo
+    "mangaLink": "https://mangadex.org/chapter/64795205-5b74-4d5b-a2df-a792818812ab/61",
+    "lastContent": "2",
+    "lastTitle": "Makoto Haga",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
+
+
 
   // THE RAVAGES OF TIME
 
-  { "name": "The Ravages of Time", "author": "Chen Mou", "post-type": "Volume", "img": "./assets/mangas/CoverTheRavages.png",
-    "all-links": "",
+  { "name": "The Ravages of Time", "author": "Chen Mou", "img": "./assets/mangas/CoverTheRavages.png",
 
-    "last-content": "",
-    "last-title": "",
-    "next-date": ""
+    // Link de todos os capítulos
+    "allLinks": "",
+
+    // Link, número e título do último capítulo
+    "mangaLink": "",
+    "lastContent": "",
+    "lastTitle": "",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 ]

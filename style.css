@@ -36,11 +36,17 @@ html {
     background: var(--banner-color);
     border-radius: 20px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
   
 /* HEADER AREA */
 
 header {
-    height: 130px;
+    min-height: 130px;
     width: 100%;
     background-color: var(--banner-color);
 
@@ -118,9 +124,12 @@ nav a button:hover:after {
 /* MAIN AREA */
 
 main {
+    flex-basis: 1;
+    height: auto;
+
     background: rgb(41,25,25);
     background: linear-gradient(49deg, rgba(41,25,25,1) 10%, rgba(92,27,11,1) 50%, rgba(41,25,25,1) 90%);
-    
+
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -136,6 +145,8 @@ main {
     padding: 30px;
     max-width: 100%;
     min-width: 550px;
+
+    max-height: 420px;
 
     color: var(--text-color);
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
@@ -192,7 +203,12 @@ main {
 
 .manga-description {
     font-size: 14px;
-    margin-top: 15px;
+    margin-top: 16px;
+}
+
+.last-title {
+    margin-top: -5px;
+    font-size: 16px;
 }
 
 .link-button {
@@ -203,7 +219,7 @@ main {
     text-align: center;
     color: var(--text-color);
     background-color: var(--primary-color);
-    padding: 8px 0;
+    padding: 14px 0;
     border-radius: 10px;
 
     transition: .3s;
@@ -226,12 +242,18 @@ main {
     border-radius: 12px;
 
     width: 220px;
+
+    transition: all .3s;
+}
+
+.manga-footer:hover {
+    opacity: 0.8;
 }
 
 /* FOOTER AREA */
 
 footer {
-    height: 80px;
+    min-height: 80px;
     width: 100%;
     background-color: var(--banner-color);
     border-top: solid 4px #1b1b1b80;
