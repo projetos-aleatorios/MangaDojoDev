@@ -8,6 +8,7 @@ var MANGAS = [
   // AVISO     | o mangá só aparecerá no site caso contenha algum link do mangadex ou do cubari no campo "mangaLink"
 
 
+  
   // ONE PIECE
 
   { "name": "One Piece", "author": "Eichiiro Oda", "img": "./assets/mangas/CoverOnePiece.png",
