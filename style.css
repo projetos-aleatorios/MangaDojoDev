@@ -66,6 +66,10 @@ header {
     border-bottom: solid .25rem #1b1b1b80;
 }
 
+header button {
+    all: unset;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -376,16 +380,24 @@ footer svg:hover {
         border-radius: 5px;
     }
 
+    .manga-footer {
+        display: none;
+    }
+
 }
 
 @media (max-width: 550px) {
+
+    main {
+        gap: 1rem;
+    }
 
     .banner-title {
         width: 15rem;
     }
 
     .manga-box {
-        width: 21rem;
+        width: 22rem;
         height: 16rem;
 
         padding: 1rem;
@@ -420,6 +432,10 @@ footer svg:hover {
         font-size: .8rem;
         width: 8rem;
         padding: .5rem;
+    }
+
+    footer {
+        padding: 0 2rem;
     }
 
 }

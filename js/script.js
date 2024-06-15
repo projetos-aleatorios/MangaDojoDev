@@ -70,5 +70,4 @@ function mangaBoxs() {
 
 }
 
-
 mangaBoxs()
