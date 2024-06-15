@@ -40,7 +40,14 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgb(41,25,25);
+    background: linear-gradient(49deg, rgba(41,25,25,1) 10%, rgba(92,27,11,1) 50%, rgba(41,25,25,1) 90%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
   
 /* HEADER AREA */
@@ -127,13 +134,13 @@ main {
     flex-basis: 1;
     height: auto;
 
-    background: rgb(41,25,25);
-    background: linear-gradient(49deg, rgba(41,25,25,1) 10%, rgba(92,27,11,1) 50%, rgba(41,25,25,1) 90%);
+    max-width: 1920px;
 
-    justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2.5rem;
+    gap: 2rem;
+    place-items: center;
+    justify-content: center;
 
     padding: 5rem;
 }
@@ -325,4 +332,13 @@ footer svg:hover {
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.350),
                     0 0 20px rgba(255, 255, 255, 0.350)
     }
-  }
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1880px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
