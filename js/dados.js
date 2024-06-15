@@ -17,9 +17,9 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1116/1",
-    "lastContent": "1116",
-    "lastTitle": "Conflito",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1117/1",
+    "lastContent": "1117",
+    "lastTitle": "Mo-",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
@@ -49,9 +49,9 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/168/1",
-    "lastContent": "168",
-    "lastTitle": "Museu Fechado",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/169/1",
+    "lastContent": "169",
+    "lastTitle": "Uma Nova Missão",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
