@@ -142,14 +142,13 @@ main {
     place-items: center;
     justify-content: center;
 
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .manga-box {
 
     background-color: var(--banner-color);
     border-radius: 1rem;
-    padding: 2rem;
 
     width: 34rem;
     height: 25.2rem;
@@ -161,14 +160,15 @@ main {
     flex-direction: row;
     justify-content: center;
 
-    gap: 2.5rem;
+    padding: 2rem;
+    gap: 2rem;
 
     transition: all .3s;
 }
 
 .manga-img {
-    width: 215px;
-    height: auto;
+    width: auto;
+    height: 340px;
     border-radius: 5px;
 }
 
@@ -183,7 +183,7 @@ main {
 }
 
 .author-name {
-    font-size: .75rem;
+    font-size: .85rem;
     color: var(--secondary-text-color);
 }
 
@@ -336,9 +336,90 @@ footer svg:hover {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 1880px) {
+@media (max-width: 1780px) {
     main {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 850px) {
+    header nav {
+        display: none!important;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .manga-box {
+        width: 30rem;
+        height: 22.3rem;
+
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .manga-img {
+        width: 200px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .banner-title {
+        width: 15rem;
+    }
+
+    .manga-box {
+        width: 21rem;
+        height: 16rem;
+
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .manga-aside {
+        width: 150px;
+    }
+
+    .manga-title {
+        font-size: 1rem;
+    }
+
+    .author-name {
+        font-size: .7rem;
+    }
+
+    .last-chapter {
+        padding: .1rem;
+    }
+
+    .manga-description {
+        font-size: .8rem;
+    }
+
+    .last-title {
+        font-size: .7rem;
+    }
+
+    .link-button {
+        font-size: .8rem;
+        width: 8rem;
+        padding: .5rem;
     }
 
 }
