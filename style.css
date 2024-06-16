@@ -398,10 +398,14 @@ footer svg:hover {
 
     .manga-box {
         width: 22rem;
-        height: 16rem;
+        height: 18rem;
 
         padding: 1rem;
         gap: 1rem;
+    }
+
+    .manga-img {
+        min-width: 8rem;
     }
 
     .manga-aside {
