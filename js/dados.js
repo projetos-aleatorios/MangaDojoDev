@@ -17,9 +17,9 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1117/1",
-    "lastContent": "1117",
-    "lastTitle": "Mo-",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1118/1",
+    "lastContent": "1118",
+    "lastTitle": "Tornar-se Livre",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
