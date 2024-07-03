@@ -70,4 +70,17 @@ function mangaBoxs() {
 
 }
 
+function socialLinks() {
+  var discordLink = document.querySelectorAll("#link-discord")
+  var twitterLink = document.querySelectorAll("#link-twitter")
+
+  twitterLink[0].href = TWITTER
+  twitterLink[1].href = TWITTER
+
+  discordLink[0].href = DISCORD
+  discordLink[1].href = DISCORD
+}
+
 mangaBoxs()
+
+socialLinks()
