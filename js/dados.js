@@ -27,7 +27,7 @@ var MANGAS = [
 
   // JUJUTSU KAISEN
 
-  { "name": "Jujutsu Kaisen", "author": "Gege Akutami", "img": "assets/mangas/CoverJujutsu.png",
+  { "name": "Jujutsu Kaisen", "author": "Gege Akutami", "img": "./assets/mangas/CoverJujutsu.png",
 
     // Link de todos os capítulos
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/",
