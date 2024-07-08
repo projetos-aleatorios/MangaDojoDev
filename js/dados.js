@@ -11,7 +11,7 @@ var MANGAS = [
   
   // ONE PIECE
 
-  { "name": "One Piece", "author": "Eichiiro Oda", "img": "./assets/mangas/CoverOnePiece.png",
+  { "name": "One Piece", "author": "Eichiiro Oda", "img": "./assets/mangas/CoverOnePiece.jpg",
 
     // Link de todos os capítulos
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
