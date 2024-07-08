@@ -20,7 +20,7 @@ var MANGAS = [
     "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1119/1/",
     "lastContent": "1119",
     "lastTitle": "Emeth",
-    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+    "note": "Data do próximo capítulo: 11/07/2024" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 
@@ -36,7 +36,7 @@ var MANGAS = [
     "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/262-2/1/",
     "lastContent": "262.2",
     "lastTitle": "A Batalha na Terra Assombrada de Shinjuku",
-    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+    "note": "Data do próximo capítulo: 12/07/2024" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 
@@ -52,7 +52,7 @@ var MANGAS = [
     "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/173/1/",
     "lastContent": "173",
     "lastTitle": "Escapar",
-    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+    "note": "Data do próximo capítulo: 14/07/2024" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 
