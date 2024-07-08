@@ -11,16 +11,16 @@ var MANGAS = [
   
   // ONE PIECE
 
-  { "name": "One Piece", "author": "Eichiiro Oda", "img": "./assets/mangas/CoverOnePiece.png",
+  { "name": "One Piece", "author": "Eichiiro Oda", "img": "./assets/mangas/CoverOnePiece.jpg",
 
     // Link de todos os capítulos
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1118/1",
-    "lastContent": "1118",
-    "lastTitle": "Tornar-se Livre",
-    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1119/1/",
+    "lastContent": "1119",
+    "lastTitle": "Emeth",
+    "note": "Data do próximo capítulo: 11/07/2024" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 
@@ -33,10 +33,10 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/262/1",
-    "lastContent": "262",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/262-2/1/",
+    "lastContent": "262.2",
     "lastTitle": "A Batalha na Terra Assombrada de Shinjuku",
-    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+    "note": "Data do próximo capítulo: 12/07/2024" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 
@@ -49,10 +49,10 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/169/1",
-    "lastContent": "169",
-    "lastTitle": "Uma Nova Missão",
-    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/173/1/",
+    "lastContent": "173",
+    "lastTitle": "Escapar",
+    "note": "Data do próximo capítulo: 14/07/2024" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
 
@@ -65,9 +65,9 @@ var MANGAS = [
     "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://mangadex.org/chapter/60b9504d-621b-4932-a8b6-f0c97abbc148",
-    "lastContent": "4",
-    "lastTitle": "Assuntos Secretos",
+    "mangaLink": "https://mangadex.org/chapter/a408f302-31eb-4414-ac5d-535a9e0f8fc7/1",
+    "lastContent": "9",
+    "lastTitle": "O Prazer de Matar",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
@@ -81,7 +81,7 @@ var MANGAS = [
     "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://mangadex.org/chapter/64795205-5b74-4d5b-a2df-a792818812ab/61",
+    "mangaLink": "https://mangadex.org/chapter/7e2c5859-bbbb-4cf2-ae17-d6a70d2b8666",
     "lastContent": "2",
     "lastTitle": "Makoto Haga",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
@@ -94,12 +94,26 @@ var MANGAS = [
   { "name": "The Ravages of Time", "author": "Chen Mou", "img": "./assets/mangas/CoverTheRavages.png",
 
     // Link de todos os capítulos
-    "allLinks": "",
+    "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
     // Link, número e título do último capítulo
-    "mangaLink": "",
-    "lastContent": "",
-    "lastTitle": "",
+    "mangaLink": "https://mangadex.org/chapter/b52efa51-8969-4d89-8b4f-2170acce2f42",
+    "lastContent": "6",
+    "lastTitle": "A Engenhosidade de Zhong Da",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+  },
+
+  // SAKAMOTO DAYS MOLI DAYS
+
+  { "name": "Sakamoto Days Moli Days", "author": "Chen Mou", "img": "./assets/mangas/CoverSakamotoMoli.png",
+
+    // Link de todos os capítulos
+    "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
+
+    // Link, número e título do último capítulo
+    "mangaLink": "https://mangadex.org/chapter/51cb229a-84ae-4f67-9ded-a82e7711bbea",
+    "lastContent": "1",
+    "lastTitle": "Sakamoto Holidays",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
