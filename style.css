@@ -381,7 +381,9 @@ footer svg:hover {
     }
 
     .manga-footer {
-        display: none;
+        font-size: .8rem;
+        padding: .5rem .1rem;
+        width: auto;
     }
 
 }
