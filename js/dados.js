@@ -17,9 +17,9 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1118/1",
-    "lastContent": "1118",
-    "lastTitle": "Tornar-se Livre",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9PbmVQaWVjZS5qc29u/1119/1/",
+    "lastContent": "1119",
+    "lastTitle": "Emeth",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
@@ -33,8 +33,8 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/262/1",
-    "lastContent": "262",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9qdWp1dHN1a2FpbnNlLmpzb24/262-2/1/",
+    "lastContent": "262.2",
     "lastTitle": "A Batalha na Terra Assombrada de Shinjuku",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
@@ -49,9 +49,9 @@ var MANGAS = [
     "allLinks": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/169/1",
-    "lastContent": "169",
-    "lastTitle": "Uma Nova Missão",
+    "mangaLink": "https://cubari.moe/read/gist/cmF3L2p2ZHVkYWJvbm9uaS90cjNxeHovbWFpbi9zYWthbW90b2RheXMuanNvbg/173/1/",
+    "lastContent": "173",
+    "lastTitle": "Escapar",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
@@ -65,9 +65,9 @@ var MANGAS = [
     "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://mangadex.org/chapter/60b9504d-621b-4932-a8b6-f0c97abbc148",
-    "lastContent": "4",
-    "lastTitle": "Assuntos Secretos",
+    "mangaLink": "https://mangadex.org/chapter/a408f302-31eb-4414-ac5d-535a9e0f8fc7/1",
+    "lastContent": "9",
+    "lastTitle": "O Prazer de Matar",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
