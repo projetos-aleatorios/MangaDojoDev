@@ -105,7 +105,7 @@ var MANGAS = [
 
   // SAKAMOTO DAYS MOLI DAYS
 
-  { "name": "Sakamoto Days Moli Days", "author": "Chen Mou", "img": "./assets/mangas/CoverTheRavages.png",
+  { "name": "Sakamoto Days Moli Days", "author": "Chen Mou", "img": "./assets/mangas/CoverSakamotoMoli.png",
 
     // Link de todos os capítulos
     "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
