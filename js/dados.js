@@ -91,15 +91,15 @@ var MANGAS = [
 
   // THE RAVAGES OF TIME
 
-  { "name": "The Ravages of Time", "author": "Okawa Tetsu", "img": "./assets/mangas/CoverSakamotoMoli.png",
+  { "name": "The Ravages of Time", "author": "Chen Mou", "img": "./assets/mangas/CoverTheRavages.png",
 
     // Link de todos os capítulos
-    "allLinks": "",
+    "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
     // Link, número e título do último capítulo
-    "mangaLink": "",
-    "lastContent": "",
-    "lastTitle": "",
+    "mangaLink": "https://mangadex.org/chapter/b52efa51-8969-4d89-8b4f-2170acce2f42",
+    "lastContent": "6",
+    "lastTitle": "A Engenhosidade de Zhong Da",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
