@@ -91,7 +91,7 @@ var MANGAS = [
 
   // THE RAVAGES OF TIME
 
-  { "name": "The Ravages of Time", "author": "Chen Mou", "img": "./assets/mangas/CoverTheRavages.png",
+  { "name": "The Ravages of Time", "author": "Okawa Tetsu", "img": "./assets/mangas/CoverSakamotoMoli.png",
 
     // Link de todos os capítulos
     "allLinks": "",
@@ -100,6 +100,20 @@ var MANGAS = [
     "mangaLink": "",
     "lastContent": "",
     "lastTitle": "",
+    "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
+  },
+
+  // SAKAMOTO DAYS MOLI DAYS
+
+  { "name": "Sakamoto Days Moli Days", "author": "Chen Mou", "img": "./assets/mangas/CoverTheRavages.png",
+
+    // Link de todos os capítulos
+    "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
+
+    // Link, número e título do último capítulo
+    "mangaLink": "https://mangadex.org/chapter/51cb229a-84ae-4f67-9ded-a82e7711bbea",
+    "lastContent": "1",
+    "lastTitle": "Sakamoto Holidays",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
   },
 
