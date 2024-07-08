@@ -81,7 +81,7 @@ var MANGAS = [
     "allLinks": "https://mangadex.org/group/a03ed985-e384-4b54-800a-09a25130a7ae/manga-dojo?tab=feed",
 
     // Link, número e título do último capítulo
-    "mangaLink": "https://mangadex.org/chapter/64795205-5b74-4d5b-a2df-a792818812ab/61",
+    "mangaLink": "https://mangadex.org/chapter/7e2c5859-bbbb-4cf2-ae17-d6a70d2b8666",
     "lastContent": "2",
     "lastTitle": "Makoto Haga",
     "note": "" // Notas para esse mangá, por exemplo, Data do próximo capítulo
